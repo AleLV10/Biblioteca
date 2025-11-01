@@ -1,0 +1,761 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Biblioteca
+</name>
+</assembly>
+<members>
+<member name="T:Biblioteca.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:Biblioteca.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:Biblioteca.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:Biblioteca.My.Resources.Resources.bachii">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Biblioteca.My.Resources.Resources.General">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Biblioteca.My.Resources.Resources.Inicio">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Biblioteca.My.Resources.Resources.InicioSecion">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Biblioteca.My.Resources.Resources.Lector">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Biblioteca.My.Resources.Resources.Menu">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Biblioteca.My.Resources.Resources.MenuPrin">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Biblioteca.My.Resources.Resources.MenuPrin1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Biblioteca.My.Resources.Resources.msj">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet.DLECPRESTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet.DLIBPRESTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet.LECTORDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet.LIBRODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet.PRESTAMODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet.DLECPRESTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet.DLIBPRESTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet.LECTORRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet.LIBRORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet.PRESTAMORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet.DLECPRESTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet.DLIBPRESTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet.LECTORRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet.LIBRORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet.PRESTAMORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSetTableAdapters.DLECPRESTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSetTableAdapters.DLIBPRESTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSetTableAdapters.LECTORTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSetTableAdapters.LIBROTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSetTableAdapters.PRESTAMOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Biblioteca.BIBLIOTECADataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Biblioteca.BIBLIOTECADataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Biblioteca.BIBLIOTECADataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSetTableAdapters.TableAdapterManager.UpdateAll(Biblioteca.BIBLIOTECADataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet1.LIBRODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet1.LIBRORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet1.LIBRORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet1TableAdapters.LIBROTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Biblioteca.BIBLIOTECADataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Biblioteca.BIBLIOTECADataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Biblioteca.BIBLIOTECADataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSet1TableAdapters.TableAdapterManager.UpdateAll(Biblioteca.BIBLIOTECADataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet2.LECTORDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet2.LIBRODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet2.PRESTAMODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet2.LECTORRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet2.LIBRORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet2.PRESTAMORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet2.LECTORRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet2.LIBRORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet2.PRESTAMORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet2TableAdapters.LECTORTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet2TableAdapters.LIBROTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet2TableAdapters.PRESTAMOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Biblioteca.BIBLIOTECADataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Biblioteca.BIBLIOTECADataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Biblioteca.BIBLIOTECADataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSet2TableAdapters.TableAdapterManager.UpdateAll(Biblioteca.BIBLIOTECADataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet3.DLECPRESTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet3.DLIBPRESTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet3.DLECPRESTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet3.DLIBPRESTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet3.DLECPRESTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet3.DLIBPRESTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet3TableAdapters.DLECPRESTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet3TableAdapters.DLIBPRESTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Biblioteca.BIBLIOTECADataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(Biblioteca.BIBLIOTECADataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(Biblioteca.BIBLIOTECADataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSet3TableAdapters.TableAdapterManager.UpdateAll(Biblioteca.BIBLIOTECADataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet4.DLECPRESTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet4.DLIBPRESTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet4.LECTORDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet4.LIBRODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet4.PRESTAMODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet4.DLECPRESTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet4.DLIBPRESTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet4.LECTORRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet4.LIBRORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet4.PRESTAMORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet4.DLECPRESTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet4.DLIBPRESTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet4.LECTORRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet4.LIBRORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet4.PRESTAMORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet4TableAdapters.DLECPRESTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet4TableAdapters.DLIBPRESTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet4TableAdapters.LECTORTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet4TableAdapters.LIBROTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet4TableAdapters.PRESTAMOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(Biblioteca.BIBLIOTECADataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(Biblioteca.BIBLIOTECADataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(Biblioteca.BIBLIOTECADataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSet4TableAdapters.TableAdapterManager.UpdateAll(Biblioteca.BIBLIOTECADataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet5.DLECPRESTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet5.DLIBPRESTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet5.LECTORDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet5.LIBRODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet5.PRESTAMODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet5.DLECPRESTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet5.DLIBPRESTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet5.LECTORRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet5.LIBRORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet5.PRESTAMORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet5.DLECPRESTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet5.DLIBPRESTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet5.LECTORRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet5.LIBRORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet5.PRESTAMORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet5TableAdapters.DLECPRESTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet5TableAdapters.DLIBPRESTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet5TableAdapters.LECTORTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet5TableAdapters.LIBROTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet5TableAdapters.PRESTAMOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(Biblioteca.BIBLIOTECADataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(Biblioteca.BIBLIOTECADataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(Biblioteca.BIBLIOTECADataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Biblioteca.BIBLIOTECADataSet5TableAdapters.TableAdapterManager.UpdateAll(Biblioteca.BIBLIOTECADataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Biblioteca.BIBLIOTECADataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
