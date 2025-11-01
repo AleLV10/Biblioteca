@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{68E4ECF4-72A4-49D2-A3AB-E1CA623EC5AF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Biblioteca.My.MyApplication</StartupObject>
+    <RootNamespace>Biblioteca</RootNamespace>
+    <AssemblyName>Biblioteca</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Biblioteca.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Biblioteca.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="adodb, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="ADODB" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BIBLIOTECADataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BIBLIOTECADataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BIBLIOTECADataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BIBLIOTECADataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BIBLIOTECADataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BIBLIOTECADataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BIBLIOTECADataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BIBLIOTECADataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BIBLIOTECADataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BIBLIOTECADataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BIBLIOTECADataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BIBLIOTECADataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="consultagral.Designer.vb">
+      <DependentUpon>consultagral.vb</DependentUpon>
+    </Compile>
+    <Compile Include="consultagral.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaLibro.Designer.vb">
+      <DependentUpon>ConsultaLibro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaLibro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaPrestamo.Designer.vb">
+      <DependentUpon>ConsultaPrestamo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaPrestamo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MSGError.Designer.vb">
+      <DependentUpon>MSGError.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MSGError.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lector.Designer.vb">
+      <DependentUpon>lector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="lector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Libro.Designer.vb">
+      <DependentUpon>Libro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Libro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuprin.Designer.vb">
+      <DependentUpon>menuprin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="menuprin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Prestamo.Designer.vb">
+      <DependentUpon>Prestamo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Prestamo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="consultagral.resx">
+      <DependentUpon>consultagral.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaLibro.resx">
+      <DependentUpon>ConsultaLibro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaPrestamo.resx">
+      <DependentUpon>ConsultaPrestamo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lector.resx">
+      <DependentUpon>lector.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Libro.resx">
+      <DependentUpon>Libro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuprin.resx">
+      <DependentUpon>menuprin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MSGError.resx">
+      <DependentUpon>MSGError.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prestamo.resx">
+      <DependentUpon>Prestamo.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BIBLIOTECADataSet.xsc">
+      <DependentUpon>BIBLIOTECADataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BIBLIOTECADataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BIBLIOTECADataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BIBLIOTECADataSet.xss">
+      <DependentUpon>BIBLIOTECADataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BIBLIOTECADataSet1.xsc">
+      <DependentUpon>BIBLIOTECADataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BIBLIOTECADataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BIBLIOTECADataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BIBLIOTECADataSet1.xss">
+      <DependentUpon>BIBLIOTECADataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BIBLIOTECADataSet2.xsc">
+      <DependentUpon>BIBLIOTECADataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="BIBLIOTECADataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BIBLIOTECADataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BIBLIOTECADataSet2.xss">
+      <DependentUpon>BIBLIOTECADataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="BIBLIOTECADataSet3.xsc">
+      <DependentUpon>BIBLIOTECADataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="BIBLIOTECADataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BIBLIOTECADataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BIBLIOTECADataSet3.xss">
+      <DependentUpon>BIBLIOTECADataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="BIBLIOTECADataSet4.xsc">
+      <DependentUpon>BIBLIOTECADataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="BIBLIOTECADataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BIBLIOTECADataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BIBLIOTECADataSet4.xss">
+      <DependentUpon>BIBLIOTECADataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="BIBLIOTECADataSet5.xsc">
+      <DependentUpon>BIBLIOTECADataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="BIBLIOTECADataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BIBLIOTECADataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BIBLIOTECADataSet5.xss">
+      <DependentUpon>BIBLIOTECADataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\Biblioteca.BIBLIOTECADataSet4TableAdapters.DLECPRESTTableAdapter.datasource" />
+    <None Include="My Project\DataSources\Biblioteca.BIBLIOTECADataSet4TableAdapters.DLIBPRESTTableAdapter.datasource" />
+    <None Include="My Project\DataSources\Biblioteca.BIBLIOTECADataSet4TableAdapters.LECTORTableAdapter.datasource" />
+    <None Include="My Project\DataSources\Biblioteca.BIBLIOTECADataSet4TableAdapters.LIBROTableAdapter.datasource" />
+    <None Include="My Project\DataSources\Biblioteca.BIBLIOTECADataSet4TableAdapters.PRESTAMOTableAdapter.datasource" />
+    <None Include="My Project\DataSources\Biblioteca.BIBLIOTECADataSet4TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="My Project\DataSources\Biblioteca.BIBLIOTECADataSet4TableAdapters.TableAdapterManager.datasource" />
+    <None Include="My Project\DataSources\Biblioteca.BIBLIOTECADataSetTableAdapters.DLECPRESTTableAdapter.datasource" />
+    <None Include="My Project\DataSources\Biblioteca.BIBLIOTECADataSetTableAdapters.DLIBPRESTTableAdapter.datasource" />
+    <None Include="My Project\DataSources\Biblioteca.BIBLIOTECADataSetTableAdapters.LECTORTableAdapter.datasource" />
+    <None Include="My Project\DataSources\Biblioteca.BIBLIOTECADataSetTableAdapters.LIBROTableAdapter.datasource" />
+    <None Include="My Project\DataSources\Biblioteca.BIBLIOTECADataSetTableAdapters.PRESTAMOTableAdapter.datasource" />
+    <None Include="My Project\DataSources\Biblioteca.BIBLIOTECADataSetTableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="My Project\DataSources\Biblioteca.BIBLIOTECADataSetTableAdapters.TableAdapterManager.datasource" />
+    <None Include="My Project\DataSources\Biblioteca.PERSONALIZADOTableAdapters.DLECPRESTTableAdapter.datasource" />
+    <None Include="My Project\DataSources\Biblioteca.PERSONALIZADOTableAdapters.DLIBPRESTTableAdapter.datasource" />
+    <None Include="My Project\DataSources\Biblioteca.PERSONALIZADOTableAdapters.LECTORTableAdapter.datasource" />
+    <None Include="My Project\DataSources\Biblioteca.PERSONALIZADOTableAdapters.LIBROTableAdapter.datasource" />
+    <None Include="My Project\DataSources\Biblioteca.PERSONALIZADOTableAdapters.PRESTAMOTableAdapter.datasource" />
+    <None Include="My Project\DataSources\Biblioteca.PERSONALIZADOTableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="My Project\DataSources\Biblioteca.PERSONALIZADOTableAdapters.TableAdapterManager.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
